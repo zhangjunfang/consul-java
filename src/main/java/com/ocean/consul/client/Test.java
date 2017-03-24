@@ -13,7 +13,7 @@ import com.ecwid.consul.v1.kv.model.GetValue;
 public class Test {
 
 	public static void main(String[] args) {
-		ConsulClient client = new ConsulClient("localhost");
+		ConsulClient client = new ConsulClient("localhost:8500");
 
 		// set KV
 		byte[] binaryData = new byte[] {1,2,3,4,5,6,7};
